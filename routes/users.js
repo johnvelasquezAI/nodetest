@@ -3,7 +3,7 @@ var router = express.Router();
 var email = require("emailjs");
 var server = email.server.connect({
   user: "johnqimatest@gmail.com",
-  password: "hunt@r93",
+  password: "****",
   host: "smtp.gmail.com",
   ssl: true
 });
